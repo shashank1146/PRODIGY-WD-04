@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Kumar Harsh - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Shashank Kumar Harsh</h1>
+            <p>Backend Developer and IT Specialist</p>
+            <img src="your-photo.jpg" alt="Shashank Kumar Harsh">
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </header>
+
+    <section id="about" class="section-box">
+        <h2>About Me</h2>
+        <div class="about-details">
+            <div class="about-item">
+                <h3>Education</h3>
+                <p><strong>Bharati Vidyapeeth (Deemed University) College of Engineering, Pune</strong><br>B. Tech in Information Technology, Aug 2022 - current</p>
+                <p><strong>Don Bosco Academy, Patna</strong><br>Computer Science, Aug 2018 - May 2019<br>CGPA: 8.25</p>
+                <p><strong>Himalayan Public School, Patna</strong><br>Science, Aug 2020 - May 2021<br>Percentage: 94.6</p>
+                <p><strong>Science</strong><br>Percentage: 83.6</p>
+            </div>
+            <div class="about-item">
+                <h3>Professional Experience</h3>
+                <p><strong>East Central Railway - Signal & Telecom (S&T) Engineer</strong><br>Bihar, Patna<br>July 2024 - Aug 2024<br>Worked on various track circuit signals, digital systems, and signal interlocking systems. Managed and analyzed the track circuit of a railway track for a railway station.</p>
+                <p><strong>Learning Potato - Teaching Assistant</strong><br>Maharashtra, Pune<br>Aug 2023 - Dec 2023<br>Provided academic support in Electronics and Telecommunications. Developed lesson plans and study materials, and assisted with technical issues.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-box">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="project1-screenshot.jpg" alt="Automated Analysis of Relay Status Changes Screenshot">
+                <div class="project-content">
+                    <h3>Automated Analysis of Relay Status Changes</h3>
+                    <p>Designed and implemented a method to extract timestamps of relay status changes. Automated the calculation of time differences between consecutive "Up" statuses for multiple relays. Ensured the solution was customizable and included error handling.</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="project2-screenshot.jpg" alt="Voice-Activated Personal Assistant Screenshot">
+                <div class="project-content">
+                    <h3>Voice-Activated Personal Assistant</h3>
+                    <p>Developed a voice-activated assistant named Jarvis using Python. Integrated text-to-speech and speech recognition libraries for voice interaction. Features include retrieving information from Wikipedia, opening websites, playing music, and sending emails.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-box">
+        <h2>Contact Me</h2>
+        <p>If you’d like to discuss a project or just want to say hi, my inbox is always open!</p>
+        <form action="submit-form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="mailto:shashankkumar7520@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/shashank-kumar-607a2922a/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+        </div>
+    </section>
+
+    <section id="certifications" class="section-box">
+        <h2>Certifications & Achievements</h2>
+        <ul>
+            <li>Tata Group's Data Visualization - June 2024</li>
+            <li>Machine Learning with Python - February 2024</li>
+            <li>Accenture North America Data Analytics and Visualization Job Simulation - August 2024</li>
+            <li>Internship at East Central Railway - August 2024</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shashank Kumar Harsh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
